@@ -1,0 +1,207 @@
+000     @SCRATCH
+000     @MEMSET.P1
+001     @SCRATCH
+001     _RETURN_
+001-002 @MEMSET.P1
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019-01A strtok.save
+01B-01E _Randseed
+01F-020 __DYNAMIC_HEAD
+021-025 TS02_ID
+026-057 TS02_buff
+058     TS02_buff_count
+059     ID
+05A     seq_num
+05B-05C @sprintf_string
+05D     MAIN.i
+05E     get_id.u
+05E     sound.s
+05E     @PSTRINGR_19200_31766_31767.@SCRATCH1
+05E     MAIN.@SCRATCH1
+05F-060 strlen.s
+05F     clear_TS02_buff.i
+05F     sound.t
+05F     @PSTRINGC_19200_31766_31767.@SCRATCH1
+05F     get_id.@SCRATCH1
+05F     @PSTRINGR_19200_31766_31767.@SCRATCH2
+05F     MAIN.@SCRATCH2
+060     sound.n
+060     clear_TS02_buff.@SCRATCH1
+060     @PSTRINGC_19200_31766_31767.@SCRATCH2
+060     get_id.@SCRATCH2
+060     MAIN.@SCRATCH3
+061-062 strlen.sc
+061     ascii2hex.value
+061     @delay_ms1.P1
+061     clear_TS02_buff.@SCRATCH2
+061     get_id.@SCRATCH3
+061     MAIN.@SCRATCH4
+062-063 @MUL1616.P1
+062     get_id.@SCRATCH4
+062     MAIN.@SCRATCH5
+063     strlen.@SCRATCH1
+063     MAIN.@SCRATCH6
+064-065 @MUL1616.P1
+064     MAIN.@SCRATCH7
+065     MAIN.@SCRATCH8
+066     @MUL1616.@SCRATCH1
+066     MAIN.@SCRATCH9
+067     @PRINTF_U_19200_31766_31767.P1
+067     @PSTRINGCN_19200_31766_31767.P2
+068     @PRINTF_U_19200_31766_31767.P1
+068     @PSTRINGCN_19200_31766_31767.@SCRATCH1
+069     @DIV88.P1
+069     @PSTRINGCN_19200_31766_31767.@SCRATCH2
+06A     @DIV88.P1
+06B     @DIV88.@SCRATCH1
+06C     RDA_isr.@SCRATCH1
+06D     RDA_isr.@SCRATCH2
+F38     ANSELA
+F39     ANSELB
+F3A     ANSELC
+F3B     ANSELD
+F3C     ANSELE
+F55     CCP_5
+F55     CCP_5_LOW
+F56     CCP_5_HIGH
+F58     CCP_4_LOW
+F58     CCP_4
+F59     CCP_4_HIGH
+F5E     CCP_3
+F5E     CCP_3_LOW
+F5F     CCP_3_HIGH
+F67     CCP_2
+F67     CCP_2_LOW
+F68     CCP_2_HIGH
+F78.6   C2OUT
+F79.6   C1OUT
+F80     PORTA
+F81     PORTB
+F82     PORTC
+F83     PORTD
+F84     PORTE
+F89     LATA
+F8A     LATB
+F8B     LATC
+F8C     LATD
+F8D     LATE
+F92     TRISA
+F93     TRISB
+F94     TRISC
+F95     TRISD
+F96     TRISE
+F9B     OSCTUNE
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FD2     OSCCON2
+FD3     OSCCON
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @MEMSET.P4
+FE9-FEA @WRITE_PACKED_MEMORY.P5
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0000AE  @const1195.call
+0000B6  @const1200.call
+0000BC  @const1201.call
+0000C4  @const1202.call
+0000CA  @const1210.call
+0000CE  @const1213.call
+0000DE  RDA_isr
+000100  @const1222.call
+000196  @PSTRINGC_19200_31766_31767
+0001B8  @PUTCHARI_BIU_1
+0001C0  @delay_ms1
+0001E8  TS02_INIT
+00023C  strlen
+000270  ascii2hex
+000288  @MUL1616
+0002A6  clear_TS02_buff
+0002C6  get_id
+0003D6  sound
+00042C  @PSTRINGCN_19200_31766_31767
+00044C  @PSTRINGR_19200_31766_31767
+000474  debug
+0004A2  @DIV88
+0004CA  @PRINTF_U_19200_31766_31767
+000536  @cinit1
+000536  MAIN
+00057A  @cinit2
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    F:\scale\0802NewCode\
+
+Project Files:
+    main.c                                                  [02-Aug-18 08:33  CRC=CF81AE21]
+    scale.h                                                 [26-Jul-18 16:47  CRC=10E8630D]
+    C:\Program Files (x86)\PICC\devices\18F26K22.h          [14-Jul-18 09:48  CRC=378CCDF1]
+    C:\Program Files (x86)\PICC\drivers\string.h            [26-Mar-15 12:34  CRC=C4814297]
+    C:\Program Files (x86)\PICC\drivers\stddef.h            [05-Sep-14 11:47  CRC=897CEC6C]
+    C:\Program Files (x86)\PICC\drivers\ctype.h             [03-Jan-08 14:55  CRC=2D1F019F]
+    C:\Program Files (x86)\PICC\drivers\stdio.h             [31-Jul-07 14:24  CRC=4E4534F4]
+    C:\Program Files (x86)\PICC\drivers\stdlib.h            [07-Dec-14 17:58  CRC=07F0FCBD]
+    C:\Program Files (x86)\PICC\drivers\time.h              [09-Jun-15 16:20  CRC=FFF18575]
+    C:\Program Files (x86)\PICC\drivers\stdlibm.h           [08-Aug-14 17:03  CRC=22F5AA92]
+    C:\Program Files (x86)\PICC\drivers\memmgmt.c           [24-Feb-12 10:47  CRC=E82E24A3]
+    C:\Program Files (x86)\PICC\drivers\stdint.h            [10-Apr-15 15:09  CRC=9F7F640F]
+
+Source signature=335E5E3A
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=E181
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC18F26K22
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+    Compile Mode:       CCS5
+    Predefined symbols:
+       #define __DEBUG 1
+       #define __18F26K22 TRUE
+
+Output Files:
+    Errors:      main.err
+    INHX32:      main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
