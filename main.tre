@@ -1,5 +1,5 @@
 ÀÄmain
-   ÃÄMAIN  0/668  Ram=10
+   ÃÄMAIN  0/726  Ram=10
    ³  ÃÄ@cinit1  (Inline)  Ram=0
    ³  ÃÄTS02_INIT  0/84  Ram=0
    ³  ³  ÃÄ@PSTRINGC_19200_31766_31767  0/34  Ram=2
@@ -73,5 +73,8 @@
    ³  ÃÄ@delay_ms1  0/40  Ram=1
    ³  ÃÄsound  0/86  Ram=3
    ³  ³  ÀÄ*
-   ³  ÀÄclear_TS02_buff  0/32  Ram=3
+   ³  ÃÄclear_TS02_buff  0/32  Ram=3
+   ³  ÃÄclear_TS02_buff  0/32  Ram=3
+   ³  ÀÄsound  0/86  Ram=3
+   ³     ÀÄ*
    ÀÄRDA_isr  0/34  Ram=2

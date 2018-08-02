@@ -116,6 +116,11 @@ void main(void){
 				    sound(2,C7);
 				    clear_TS02_buff();
 				}
+				else if((TS02_buff[i] == 'O')  && (TS02_buff[i+1] == 'K')){ //master's response
+					clear_TS02_buff();
+					sound(2,A6);
+					break;
+				}
 			}
 		}
 	}	

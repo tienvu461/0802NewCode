@@ -159,10 +159,10 @@ ROM Allocation:
 0136  StrtolGO
 
 Project Directory:
-    F:\scale\0802NewCode\
+    F:\scale\0802NewCode\0802NewCode\
 
 Project Files:
-    main.c                                                  [02-Aug-18 08:33  CRC=CF81AE21]
+    main.c                                                  [02-Aug-18 09:16  CRC=41DCAB3B]
     scale.h                                                 [26-Jul-18 16:47  CRC=10E8630D]
     C:\Program Files (x86)\PICC\devices\18F26K22.h          [14-Jul-18 09:48  CRC=378CCDF1]
     C:\Program Files (x86)\PICC\drivers\string.h            [26-Mar-15 12:34  CRC=C4814297]
@@ -175,10 +175,10 @@ Project Files:
     C:\Program Files (x86)\PICC\drivers\memmgmt.c           [24-Feb-12 10:47  CRC=E82E24A3]
     C:\Program Files (x86)\PICC\drivers\stdint.h            [10-Apr-15 15:09  CRC=9F7F640F]
 
-Source signature=335E5E3A
+Source signature=A5B95B54
 Program memory checksum=0000
 Program memory CRC=0000
-Hex file CRC=E181
+Hex file CRC=4D9C
 
 Units:
     main (main)

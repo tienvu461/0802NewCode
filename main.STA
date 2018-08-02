@@ -1,6 +1,6 @@
 
-ROM used:   1998/65536 (3%)
-            1998/65536 (3%) including unused fragments
+ROM used:   2056/65536 (3%)
+            2056/65536 (3%) including unused fragments
 
             0.5 Average locations per line
             3.5 Average locations per statement
@@ -13,20 +13,20 @@ Stack size: 30
 
 Lines Stmts  %   Files
 ----- ----- ---  -----
-  123    78  13  main.c
+  128    83  14  main.c
   154     0   0  scale.h
   992     0   0  C:\Program Files (x86)\PICC\devices\18F26K22.h
   435     0   0  C:\Program Files (x86)\PICC\drivers\string.h
    32     0   0  C:\Program Files (x86)\PICC\drivers\stddef.h
    28     0   0  C:\Program Files (x86)\PICC\drivers\ctype.h
    37     0   0  C:\Program Files (x86)\PICC\drivers\stdio.h
- 1351   359  62  C:\Program Files (x86)\PICC\drivers\stdlib.h
+ 1351   359  61  C:\Program Files (x86)\PICC\drivers\stdlib.h
   236     0   0  C:\Program Files (x86)\PICC\drivers\time.h
   335   129  22  C:\Program Files (x86)\PICC\drivers\stdlibm.h
    76    13   2  C:\Program Files (x86)\PICC\drivers\memmgmt.c
   163     0   0  C:\Program Files (x86)\PICC\drivers\stdint.h
 ----- -----
- 3962   579 Total
+ 3967   584 Total
 
 Page ROM  %  RAM    Vol Diff  Functions:
 ---- --- --- ---    --- ----  ----------
@@ -50,7 +50,7 @@ Page ROM  %  RAM    Vol Diff  Functions:
 0     32   1    3             @PSTRINGCN_19200_31766_31767
 0     40   1    2             @PSTRINGR_19200_31766_31767
 0     34   1    2     80  3.1  RDA_isr
-0    668  17   10   1114  7.2  MAIN
+0    726  18   10   1348  8.2  MAIN
 0    150   4    0             @const1222
 0     40   1    3             @DIV88
 0    108   3    2             @PRINTF_U_19200_31766_31767
@@ -58,22 +58,22 @@ Page ROM  %  RAM    Vol Diff  Functions:
 
 Program metrics:
     Functions               9
-    Statements              579
-    Comments                1267
-    Volume (V)              4392
-    Difficulty (D)          35.8
-    Effort to implement (E) 157159
-    Time to implement (T)   2 hours, 26 minutes
+    Statements              584
+    Comments                1268
+    Volume (V)              4675
+    Difficulty (D)          36.9
+    Effort to implement (E) 172333
+    Time to implement (T)   2 hours, 40 minutes
     Est Delivered Bugs (B)  1
-    Cyclomatic Complexity   10
-    Maintainability (MI)    49
+    Cyclomatic Complexity   11
+    Maintainability (MI)    48
 
  Segment     Used  Free
 -----------  ----  ----
 00000-00002     4  0  
 00004-00006     0  4  
 00008-000AC   166  0  
-000AE-0FFFE  1828  63534  
+000AE-0FFFE  1886  63476  
 
 
 
